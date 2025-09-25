@@ -14,7 +14,6 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.TextUnit
-import androidx.compose.ui.unit.sp
 import androidx.core.app.NotificationCompat
 import com.dosystem.todo.data.model.todo.TodoWithCategory
 import com.dosystem.todo.data.model.weather.HourForecast

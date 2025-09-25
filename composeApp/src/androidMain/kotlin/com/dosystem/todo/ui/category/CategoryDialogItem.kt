@@ -16,7 +16,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -208,22 +207,6 @@ fun CategoryForegroundContent(
             }
         }
     }
-}
-
-@Composable
-fun CategoryEditBackgroundContent(
-    modifier: Modifier = Modifier
-) {
-    Icon(
-        imageVector = Icons.Default.Edit,
-        contentDescription = null,
-        tint = Color.White,
-        modifier = modifier
-            .fillMaxSize()
-            .background(Color.Green)
-            .wrapContentSize(Alignment.CenterStart)
-            .padding(start = 10.dp)
-    )
 }
 
 @Composable

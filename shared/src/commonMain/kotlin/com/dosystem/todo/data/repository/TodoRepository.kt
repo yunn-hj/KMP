@@ -2,7 +2,6 @@ package com.dosystem.todo.data.repository
 
 import com.dosystem.todo.data.model.todo.TodoEntity
 import com.dosystem.todo.data.model.todo.TodoWithCategory
-import kotlinx.coroutines.flow.Flow
 
 interface TodoRepository {
     suspend fun insert(todo: TodoEntity)

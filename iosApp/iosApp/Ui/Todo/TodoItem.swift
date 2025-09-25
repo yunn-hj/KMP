@@ -193,7 +193,7 @@ struct DatePickerView: View {
                     DatePicker(
                         "날짜 선택",
                         selection: $selection,
-                        displayedComponents: .date,
+                        displayedComponents: .date
                     )
                     .environment(\.locale, Locale(identifier: "ko_KR"))
                     .datePickerStyle(.graphical)
