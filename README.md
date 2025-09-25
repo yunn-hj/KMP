@@ -1,5 +1,5 @@
 # KMP Weather & Todo App
-Kotlin Multiplatform(KMP)을 사용하여 날씨 정보 조회 기능과 할 일(Todo) 관리 기능을 제공하는 애플리케이션. 공통 코드 베이스(Shared Logic)를 통해 개발 효율성과 코드 재사용성을 극대화하고, Android/iOS 양쪽 플랫폼에 일관된 비즈니스 로직을 제공한다.
+Kotlin Multiplatform(KMP)을 사용하여 날씨 정보 조회 기능과 할 일(Todo) 관리 기능을 제공하는 애플리케이션. 공유 로직을 통해 개발 효율성과 코드 재사용성을 극대화하고, Android/iOS 양쪽 플랫폼에 일관된 비즈니스 로직을 제공한다.
 </br></br></br>
 
 ## 개요
