@@ -1,13 +1,13 @@
 # KMP Weather & Todo App
-Kotlin Multiplatform(KMP)을 사용하여 날씨 정보 조회 기능과 할 일(Todo) 관리 기능을 제공하는 애플리케이션. 공유 로직을 통해 개발 효율성과 코드 재사용성을 극대화하고, Android/iOS 양쪽 플랫폼에 일관된 비즈니스 로직을 제공한다.
+`Kotlin Multiplatform(KMP)`을 사용하여 날씨 정보 조회 기능과 할 일(Todo) 관리 기능을 제공하는 애플리케이션. 공유 로직을 통해 개발 효율성과 코드 재사용성을 극대화하고, Android/iOS 양쪽 플랫폼에 일관된 비즈니스 로직을 제공한다.
 </br></br></br>
 
 ## 요약
 - **공유 로직**: 비즈니스 로직(ViewModel, Repository, API/DB)은 공통 코드로 작성
 
 - **플랫폼별 UI**:
-    - **Android**: Jetpack Compose
-    - **iOS**: SwiftUI
+    - **Android**: `Jetpack Compose`
+    - **iOS**: `SwiftUI`
 
 ## 주요 기능
 - **날씨 정보 조회**
@@ -22,7 +22,7 @@ Kotlin Multiplatform(KMP)을 사용하여 날씨 정보 조회 기능과 할 일
 - **Kotlin Multiplatform (KMP)**: `commonMain` 소스셋에 공유 비즈니스 로직 구현
     - **ViewModel**: UI 상태 관리
         - **Android**: `koinViewModel()` 를 통해 공유 모듈의 ViewModel 주입
-        - **iOS**: AndroidX ViewModel을 직접 사용할 수 없어 iOS용 Wrapper ViewModel 클래스 구현
+        - **iOS**: `AndroidX ViewModel`을 직접 사용할 수 없어 iOS용 Wrapper ViewModel 클래스 구현
     - **Data Layer**: API 통신(`Ktor`), 로컬 데이터베이스(`Room`) 처리
     - **DI Modules**: 의존성 주입(`Koin`)
 
