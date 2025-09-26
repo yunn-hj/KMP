@@ -69,9 +69,9 @@ sequenceDiagram
     participant Api as WeatherApi (Ktor)
     participant Ext as OpenWeatherMap API
 
-    UI->>VM: 1. 데이터 요청 (도시 경위도, 날씨)
-    VM->>Repo: 2. getCoordinates(), getCurWeather() ...
-    Repo->>Api: 3. getCoordinates(), getCurWeather() ...
+    UI->>VM: 1. Intent (도시 경위도, 시간별/일별 날씨 검색)
+    VM->>Repo: 2. 도시 경위도, 시간별/일별 날씨 데이터 요청
+    Repo->>Api: 3. API 함수 호출
     Api->>Ext: 4. HTTP GET 요청
     Ext-->>Api: 5. JSON 응답
     Api-->>Repo: 6. 데이터 파싱 (Resource 객체로 변환)
